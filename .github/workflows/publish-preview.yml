@@ -14,7 +14,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
         run: |
-          set -eu
-          curl --fail --location --silent --show-error https://raw.githubusercontent.com/KrinskyP03/WATTY/dcf8344453292511d082c8be7007895356bacc90/downloads/WATTY-macOS-preview.zip -o WATTY-macOS-preview.zip
-          echo 'b5a1bec450fdf5b726eacde0068d2c928b6f90bff09963481c6f5d967e7c5d0a  WATTY-macOS-preview.zip' | sha256sum --check
-          gh release create v1.0-preview.1 WATTY-macOS-preview.zip --target dcf8344453292511d082c8be7007895356bacc90 --prerelease --title 'WATTY 1.0 Preview' --notes 'Download **WATTY-macOS-preview.zip** below. Unzip it, move WATTY to Applications, and open it. Requires macOS 26 or later. This preview is ad-hoc signed and has not been notarized. [First-launch instructions and Low Power Mode details](https://github.com/KrinskyP03/WATTY#open-watty-on-your-mac).'
+          gh release edit v1.0-preview.1 --notes-file - <<'NOTES'
+          I built WATTY to check my Mac’s power and device batteries from the menu bar. You can also connect your Tesla through Tessie.
+
+          Download **WATTY-macOS-preview.zip**, unzip it, and drag WATTY to Applications. Requires macOS 26 or later. [If macOS blocks WATTY, follow these steps.](https://github.com/KrinskyP03/WATTY#open-watty-on-your-mac)
+          NOTES
