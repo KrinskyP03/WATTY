@@ -9,13 +9,9 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - name: Verify ZIP and publish preview
+      - name: Mark preview as latest release
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
         run: |
-          gh release edit v1.0-preview.1 --notes-file - <<'NOTES'
-          I built WATTY to check my Mac’s power and device batteries from the menu bar. You can also connect your Tesla through Tessie.
-
-          Download **WATTY-macOS-preview.zip**, unzip it, and drag WATTY to Applications. Requires macOS 26 or later. [If macOS blocks WATTY, follow these steps.](https://github.com/KrinskyP03/WATTY#open-watty-on-your-mac)
-          NOTES
+          gh release edit v1.0-preview.1 --prerelease=false --latest --title 'WATTY 1.0 Preview 1'
