@@ -4,7 +4,7 @@ WATTY shows your Mac’s power flow, the apps using energy, and your devices’ 
 
 ## Download
 
-[Download WATTY for macOS 26 or later](https://raw.githubusercontent.com/KrinskyP03/WATTY/main/downloads/WATTY-macOS-preview.zip). The download includes native builds for Apple silicon and Intel (x86_64). Testing on Intel hardware is still pending.
+[Download WATTY for macOS 26 or later](https://github.com/KrinskyP03/WATTY/releases/download/v1.0-preview.1/WATTY-macOS-preview.zip). The download includes native builds for Apple silicon and Intel (x86_64). Testing on Intel hardware is still pending.
 
 This preview is ad-hoc signed and has not been notarized by Apple. Gatekeeper may block a downloaded copy. Installation on a second Mac and end-to-end Tessie login are pending.
 
@@ -16,7 +16,7 @@ This preview is ad-hoc signed and has not been notarized by Apple. Gatekeeper ma
 
 ## Low Power Mode
 
-On supported Macs, you can use WATTY’s Low Power Mode switch with administrator approval. This preview uses the macOS password prompt when you change the setting. A future build signed with the publisher’s Apple Developer ID can support a helper that you approve once.
+On supported Macs, you can use WATTY’s Low Power Mode switch with administrator approval. This preview uses the macOS password prompt when you change the setting. You don’t need a developer account.
 
 ## Tesla
 
