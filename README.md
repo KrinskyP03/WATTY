@@ -2,7 +2,7 @@
 
 ![Vibe-coded with Claude](https://img.shields.io/badge/Vibe--coded_with-Claude-c96442)
 
-**[Download WATTY 1.0 Preview 1 for Mac](https://github.com/KrinskyP03/WATTY/releases/download/v1.0-preview.1/WATTY-macOS-preview.zip)** · macOS 26 or later
+**[Download WATTY for Mac](https://github.com/KrinskyP03/WATTY/releases/download/v1.0-preview.1/WATTY-macOS-preview.zip)** · macOS 26 or later
 
 I vibe-coded WATTY with Claude to see my Mac’s power draw, which apps are using energy, and how much charge my devices have left, all from the menu bar. If you drive a Tesla, add your Tessie token in Settings to see its charge too. Your Mac keeps the token in Keychain.
 
