@@ -8,6 +8,12 @@ I vibe-coded WATTY with Claude to see my Mac’s power draw, which apps are usin
 
 I built it for Apple silicon and Intel. I haven’t tested it on an Intel Mac yet.
 
+## Screenshots
+
+WATTY running on my Mac with sample data.
+
+<img src="screenshots/overview.jpg" width="44%" alt="Mac charging at 72% with the adapter powering the Mac and battery"> <img src="screenshots/devices.jpg" width="44%" alt="Tesla, Apple Watch, two iPads, iPhone, and accessories above the top energy users">
+
 ## Open WATTY on your Mac
 
 1. Unzip the download, drag **WATTY** to **Applications**, and double-click it.
