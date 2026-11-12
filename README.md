@@ -14,6 +14,21 @@ WATTY running on my Mac with sample data.
 
 <img src="screenshots/overview.jpg" width="44%" alt="Mac charging at 72% with the adapter powering the Mac and battery"> <img src="screenshots/devices.jpg" width="44%" alt="Tesla, Apple Watch, two iPads, iPhone, and accessories above the top energy users">
 
+### Battery health and history
+
+<a href="screenshots/health.jpg"><img src="screenshots/health.jpg" width="44%" alt="Battery Health"></a> <a href="screenshots/history.jpg"><img src="screenshots/history.jpg" width="44%" alt="Last 12 Hours"></a>
+
+<details>
+<summary>Settings and device troubleshooting</summary>
+
+<a href="screenshots/general.jpg"><img src="screenshots/general.jpg" width="44%" alt="General settings"></a> <a href="screenshots/settings-devices.jpg"><img src="screenshots/settings-devices.jpg" width="44%" alt="Device settings"></a>
+
+<a href="screenshots/detected.jpg"><img src="screenshots/detected.jpg" width="44%" alt="Detected devices"></a> <a href="screenshots/help.jpg"><img src="screenshots/help.jpg" width="44%" alt="Device troubleshooting with all five answers expanded"></a>
+
+<a href="screenshots/tesla.jpg"><img src="screenshots/tesla.jpg" width="44%" alt="Tesla settings"></a> <a href="screenshots/about.jpg"><img src="screenshots/about.jpg" width="44%" alt="About WATTY"></a>
+
+</details>
+
 ## Open WATTY on your Mac
 
 1. Unzip the download, drag **WATTY** to **Applications**, and double-click it.
